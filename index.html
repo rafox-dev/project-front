@@ -5,23 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">      
     <title>portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-   <header></header>
+   <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculum.html">Currículo</a>
+        </nav>
+   </header>
    <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo"> Eleve seu negócio digital a outro nivel com um <strong> Front-end de qualidade!</strong></h1>
             <p class="apresentacao__conteudo__paragrafo">Olá! Sou Rafael Bueno, e atuo como desenvolvedor Front-end com especialidade em <strong class="titulo-destaque"> Angular, HTML e CSS.</strong> Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__links">
-            <h2>Acesse minhas redes</h2>
-            <a class="apresentacao__links__link" href="https://instagram.com/rafaelbu_">Instagram</a>
-            <a class="apresentacao__links__link" href="https://github.com/rafox-dev">Github</a>
+            <h2 class="apresentacao__links_subtitulo">Acesse minhas redes</h2>
+            <a class="apresentacao__links__link" href="https://github.com/rafox-dev">
+                <img src="./assets/github.png">
+                Github
+            </a>
+            <a class="apresentacao__links__link" href="https://www.linkedin.com/in/rafox-dev/">
+                <img src="./assets/linkedin.png">
+                linkedin
+            </a>
+            <a class="apresentacao__links__link" href="https://www.Instagram.com/rafaelbu_">
+                <img src="./assets/instagram.png">
+                Instagram
+            </a>
             </div>
         </section>
-        <img src="IMG-600x600.png" alt="Imagem do programador do site Rafael Bueno">
+        <img src="./assets/IMG-600x600.png" alt="Imagem do programador do site Rafael Bueno">
    </main>
-   <footer></footer>
+   <footer>
+        <p class="rodape__pagina">Desenvolvido por RAFOX-DEV</p>
+   </footer>
 </body>
 </html>
 
@@ -35,6 +53,9 @@
 <!-- A tag "Strong" é para darmos enfâse a determinado trecho, mostrar ao navegador a importância de determinada parte do HTML-->
 <!-- O uso da tag "a" que chamamos de âncora, junto com o "href" que é a inserção de URL nos permitem adiconar links ao código HTML-->
 <!-- As tags semânticas do HTML são onde armazenamos nossos trechos de código, são elas: <header> <main> e <footer> -->
+<!-- O footer é a parte inferior da nossa página, o fundo-->
+<!-- O header é a parte superior da nossa página, o cabeçalho-->
+<!-- A tag "nav" usamos para inserir links para redirecionar a outros site, sejam blogs ou sites-->
 
 <!-- CSS -->
 
@@ -46,3 +67,6 @@
 <!-- Uma classe, pode ser criada em qualquer tag/elemento-->
 <!-- Ao usar um "padding" para definir o tamanho de distância de determinada borda, podemos inserir depois valores, o primeiro é medida vertical e o segundo horizontal-->
 <!-- Ao definir o valor da propriedade de um elemento como "display" criamos um conteiner flex, ou seja, passamos a estilizar o Flexbox-->
+<!-- Ao mudarmos o "flex-direction" todas as propriedas mudam também-->
+<!-- A propriedade "padding" é responsável por definir a distância entre um conteúdo e suas bordas.-->
+<!-- A propriedade "padding" também ser utilizada usando um, dois, três ou todos os quatro valores. Cada valor é um "comprimento" ou uma "porcentagem"-->
